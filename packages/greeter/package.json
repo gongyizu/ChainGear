@@ -1,0 +1,13 @@
+{
+  "name": "greeter",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hardhat compile",
+    "greeter": "hardhat run scripts/exec.js"
+  },
+  "dependencies": {
+    "@arbitrum/sdk": "^4.0.1",
+    "@arbitrum/nitro-contracts": "2.1.0"
+  }
+}

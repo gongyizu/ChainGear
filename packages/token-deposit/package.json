@@ -1,0 +1,13 @@
+{
+  "name": "token-deposit",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hardhat compile",
+    "token-deposit": "hardhat run scripts/exec.js"
+  },
+  "dependencies": {
+    "@arbitrum/sdk": "^v4.0.1",
+    "@openzeppelin/contracts": "^4.8.3"
+  }
+}

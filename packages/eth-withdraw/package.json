@@ -1,0 +1,11 @@
+{
+  "name": "eth-withdraw",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "scripts": {
+    "withdrawETH": "hardhat run scripts/exec.js"
+  },
+  "dependencies": {
+    "@arbitrum/sdk": "^v4.0.1"
+  }
+}

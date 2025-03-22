@@ -1,0 +1,11 @@
+{
+  "name": "eth-deposit",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "scripts": {
+    "depositETH": "hardhat run scripts/exec.js"
+  },
+  "dependencies": {
+    "@arbitrum/sdk": "^v4.0.1"
+  }
+}

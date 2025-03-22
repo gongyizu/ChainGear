@@ -1,0 +1,11 @@
+{
+  "name": "address-table",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "scripts": {
+    "exec": "hardhat run scripts/exec.js"
+  },
+  "dependencies": {
+    "@arbitrum/sdk": "^4.0.1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "demo-dapp-election",
+  "license": "Apache-2.0",
+  "author": "Offchain Labs, Inc.",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hardhat compile",
+    "exec": "hardhat run scripts/exec.js"
+  }
+}
